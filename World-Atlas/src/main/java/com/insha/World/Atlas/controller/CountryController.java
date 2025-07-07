@@ -46,7 +46,7 @@ public class CountryController {
 
     @PostMapping("/import")
     public ResponseEntity<String> importCountries() {
-        importService. ();
+        importService.importCountries();
         return ResponseEntity.ok("Countries imported successfully.");
     }
 
